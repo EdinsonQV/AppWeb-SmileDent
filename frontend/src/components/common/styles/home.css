@@ -1,0 +1,86 @@
+*, ::before, ::after {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-family: Open sans, sans-serif;
+    /* height: 2000vh; */
+    background: #99CCDF;
+    
+    /* overflow: hidden; */
+  }
+
+.home{
+    position: relative;
+}
+.dishes{
+    position:relative;
+    top:20px;
+    background-color:aliceblue;
+    padding-bottom: 50px;
+}
+.aligncenter{
+    margin-top:20px;
+    align-items: center;
+    text-align: center;
+}
+
+.col-md-4{
+    border-bottom: 2px solid black;
+}
+.card-image{
+    display: block;
+    position: relative;
+    
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+.card-title{
+    background: rgba(255, 255, 255, 0.87);
+    text-shadow: 1px 1px 1px #fff;
+    position:absolute;
+    font-weight:bold;
+    font-size:24px;
+    border-bottom: 4px solid #10cdff;
+    text-align: center;
+    padding: 10px;
+    bottom: -8px;
+    left:0;
+    width:100%;
+}
+
+.card-content{
+    padding-top: 20px;
+    text-align: justify;
+    width:100%;
+    font-size: 15px;
+}
+
+.services{
+    padding-top: 20px;
+}
+.icons{
+    float: left;
+    min-width: 50px;
+    margin-top: 11px;
+    width: 72px;
+    height: 72px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.info-blocks-in{
+    padding:0 10px;
+    overflow:hidden;
+
+}
+.row.service-v1.margin-bottom-40 {
+    margin-left: 20px;
+}
+.col-sm-4.info-blocks {
+    padding-bottom: 20px;
+}

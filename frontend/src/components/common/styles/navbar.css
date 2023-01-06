@@ -1,0 +1,31 @@
+.container_navbar {
+  position: relative;
+  height: 65px;
+  z-index:3;
+  background-color: #fff;
+  border-bottom:0.5px solid #776880;
+
+}
+.nav {
+  right: 20px;
+  position: absolute;
+  background-color: #fff;
+}
+.header_navbar {
+  display: flex;
+  padding-top: 1em;
+  background-color: #fff;
+  height: 40px;
+}
+
+.fs-4 {
+  position: absolute;
+  margin: 0 0 0 0;
+  top: 15px;
+  left: 40px;
+  display: block;
+  font-weight: bold;
+  color: #105fd6;
+}
+
+
