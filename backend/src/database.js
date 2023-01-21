@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 
-URI=('mongodb+srv://root:root@cluster-smile-dent.o9lcmw1.mongodb.net/?retryWrites=true&w=majority')
+URI=('mongodb+srv://userAdmin:admin1234@smiledent.w8li3xp.mongodb.net/?retryWrites=true&w=majority')
 
 mongoose.connect(URI,{
     useNewUrlParser:true,
