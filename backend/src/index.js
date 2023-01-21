@@ -4,7 +4,6 @@ const app=express()
 createRoles()
 const morgan=require('morgan')
 const cors=require('cors')
-
 require('./database')
 app.use(cors())
 app.set('Port', process.env.PORT || 4000)
