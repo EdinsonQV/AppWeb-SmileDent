@@ -23,6 +23,6 @@
     "mongoose": "^5.13.2",
     "moongose": "^1.0.0",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.10"
+    "nodemon": "^2.0.20"
   }
 }
